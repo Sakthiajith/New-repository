@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title> MILKYMIST</title>
+    </head>
+    <body>
+        <header>
+            <img src="MMD_New_Logo_REC_300x.avif">
+        </header>
+    </body>
+</html>

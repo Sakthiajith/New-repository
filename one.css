@@ -1,0 +1,95 @@
+
+img.logo{
+    
+    padding-left:20px;
+    width:170px;
+    height:140px;
+}
+header
+{
+
+    background-color:navy;
+}
+
+h1{
+    color:white;
+    text-decoration-line:underline;
+    text-decoration-color:red;
+
+    font-family:"SimSun-ExtB";
+    font-weight:bolder;
+
+    background-color:black;
+    background-size:250%;
+
+    font-size:50px;
+    text-align:center;
+    position:absolute;
+    top:20px;
+    right:100px;
+}
+.topnov{
+    overflow: hidden;
+    background-color:#333;
+    padding: 14px 16px;
+    
+}
+.topnav a{
+
+    float:left;
+    position:center;
+    top:70%;
+    left:50%;
+    color: black;
+    text-align: center;
+    
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+.top{
+    position:center;
+    padding-top:70px;
+    text-align:center;
+    font-weight:bold;
+    font-size: 400%;
+    font-family:"corbel";
+
+}
+
+.note{
+    font-family:"Corbel";
+    color:darkblue;
+    font-weight:bold;
+    text-align:center;
+    font-size:60px;
+    
+}
+ .txt{
+    font-family:"Corbel";
+    color:black;
+    font-size:20px;
+    text-align:center;
+    
+}
+.column {
+   float:left;
+   display:flex;
+   top:250px;
+   height:350px;
+    
+  }
+  .row{
+    display:flex;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
